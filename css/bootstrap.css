@@ -198,8 +198,6 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-  padding-bottom:0.1px;
-  padding-top:0.1px;
 }
 
 svg {
@@ -373,7 +371,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 h3, .h3 {
@@ -5089,7 +5087,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding: 50%;
+  padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
@@ -6534,9 +6532,6 @@ button.bg-secondary:focus {
 
 .bg-success {
   background-color: #28a745 !important;
-  font-family: serif;
-  text-align:center;
-  margin-right: 70%;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6547,10 +6542,6 @@ button.bg-success:focus {
 
 .bg-info {
   background-color: #17a2b8 !important;
-  font-style: italic;
-  text-align: center;
-  font-size: 40px;
-  margin-right: 70%;
 }
 
 a.bg-info:hover, a.bg-info:focus,
@@ -10048,20 +10039,3 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-header {
-  background-color:crimson;
-  padding: 10px;
-  text-align: right;
-  font-size: 35px;
-  color: white;
-}
-.image
-{
-width: auto;
-padding-bottom: 20px;
-
-}
-h2,header
-{
-  text-align: center;
-}
